@@ -7,7 +7,7 @@ from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 from dotenv import load_dotenv
 
-# Sets SendGrid API Key from dotenv
+# Sets SendGrid API Key from dotenv - Remember to replace with your API Key on .env file
 load_dotenv()
 account_sid = os.getenv('SENDGRID_API_KEY')
 
